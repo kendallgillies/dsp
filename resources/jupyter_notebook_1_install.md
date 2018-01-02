@@ -37,7 +37,7 @@ reshama$ jupyter notebook
 At terminal prompt:  
  * control + c
  * type:  `y`
- 
+
 >my example 
 ```console
 ^C[I 11:43:35.486 NotebookApp] interrupted
@@ -57,3 +57,4 @@ reshama$
 You can try out Jupyter on a browser without installing it.  
 https://try.jupyter.org/
 
+Yay it works!
