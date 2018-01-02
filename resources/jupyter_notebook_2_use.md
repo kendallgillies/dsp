@@ -17,15 +17,15 @@ Once you launch Jupyter, it will open the notebook in your default browser.
 ### Running bash commands in a Jupyter notebook  
 You can run bash (or terminal) commands right from the notebook!  
 * Click on gray cell and type the following:  
-`!pwd`  
+  `!pwd`  
 * Run the cell by typing:  `shift + return`  
 * Click on next gray cell and type the below.  
-`!python --version`
+  `!python --version`
 * Run the cell by typing: `shift + return`
 
 ### Running python in a Jupyter notebook  
 * Click on next gray cell and type the below.    
-`print("Hello, World!)`
+  `print("Hello, World!)`
 * Run the cell by typing: `shift + return`
 
 ### Other Helpful Commands
@@ -48,3 +48,5 @@ Include the following two lines in your notebooks so the graphs are viewable.
 %matplotlib inline
 import matplotlib.pyplot as plt
 ```
+
+Finished
