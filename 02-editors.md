@@ -8,6 +8,8 @@ Computing's interface is text. To work effectively, you need to be fluent with t
 
 It may sound silly, but make sure you know how to type.  Take this [typing test](http://www.typingtest.com/). You should be comfortable typing with perfect accuracy at 60 words per minute, at least. If you currently can't, practice until you can.
 
+:thumbsup:
+
 A lot of your work will be done in a text editor. You have to know how to use your editor. Any editor will work, but knowing a powerful editor well will make you faster, more comfortable, and more effective.
 
 ---
@@ -20,7 +22,7 @@ There are 3 widely used terminal editors.  Here's a [discussion comparing **nano
  * [nano](http://staffwww.fullcoll.edu/sedwards/Nano/IntroToNano.html) - this is the simplest to use 
  * [vim](http://www.howtogeek.com/102468/a-beginners-guide-to-editing-text-files-with-vi/) - is the default on many systems and you might find yourself in it even if you did not intend to
  * [emacs](http://ocean.stanford.edu/research/quick_emacs.html) - oldest editor, has steep learning curve, powerful, has lots of extensible options
- 
+
 Note:  Both Emacs and vim have built-in interactive tutorials that you can try.
 
 You should know how to do the following tasks, *at the minimum*, on **nano** and **vim**:  
@@ -31,12 +33,11 @@ You should know how to do the following tasks, *at the minimum*, on **nano** and
 
 Here's a basic list of commands:  
 
-|   |terminal editor | open a file    |  edit a file |  save a file       |  exit a file   |  
-|---|----------------|----------------|--------------|--------------------|----------------|
-| 1 | nano           | nano filen.py  | [just type]  | ctrl + o, enter    | ctrl + x       |
-| 2 | vim, vi        | vim filen.py   | [just type]  | esc :w, enter      | esc :q, enter  |
-| 3 | emacs          | emacs filen.py | [just type]  | ctrl-x, xtrl-s     | ctrl-x, ctrl-c |
- 
+|      | terminal editor | open a file    | edit a file | save a file     | exit a file    |
+| ---- | --------------- | -------------- | ----------- | --------------- | -------------- |
+| 1    | nano            | nano filen.py  | [just type] | ctrl + o, enter | ctrl + x       |
+| 2    | vim, vi         | vim filen.py   | [just type] | esc :w, enter   | esc :q, enter  |
+| 3    | emacs           | emacs filen.py | [just type] | ctrl-x, xtrl-s  | ctrl-x, ctrl-c |
 
 ---
 
@@ -61,3 +62,5 @@ Sublime is probably the most popular editor for new coders. You can set it up to
 Spyder and PyCharm are IDEs for Python. They try to give you a fully configured setup out of the box.
 
 We will also use Jupyter notebooks, but this does not remove the need for proficiency in an editor or IDE.
+
+I've downloaded Sublime Text and Typora...
