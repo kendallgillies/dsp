@@ -20,7 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 1. pwd: show current working directory path
+> > 2. mkdir \[name\]: creating a directory
+> > 3. rm \[name\]: deleting a directory (or rm -r [name] if stuff is in directory)
+> > 4. touch \[name\]: creating a file using `touch` command
+> > 5. rm \[name\]: deleting a file
+> > 6. mv \[old name\]  \[new name\]:  renaming a file 
+> > 7. ls -a: listing hidden files
+> > 8. cp \[old directory/file name\] \[new directory/file name\] copying a file from one directory to another
+> > 9. cd ..: backs up one directory 
+> > 10. vi \[name\]: creates a new file that contains text
 
 ---
 
@@ -35,7 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls`   - lists contents in alphabetical order
+> > `ls -a`  - shows hidden files and directories as well as non-hidden contents shown using ls
+> > `ls -l`   - does a long list...displays a lot of information about each file
+> > `ls -lh`  - does a long list but displays the size of the file in "Human Readable Format" because large numbers are icky to look at
+> > `ls -lah`  - long list, in "Human Readable Format", with hidden stuff
+> > `ls -t`  - shows ls in order from time last edited
+> > `ls -Glp`  - shows a long list, no group names printed and add a / to the end of a directory
 
 ---
 
@@ -43,7 +58,13 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Full disclosure: I only found one of these exciting...
+> >
+> > 1. ls -R: displays all subdirectories too, can easily check all files without having to dig
+> > 2. ls -m: puts names as a comma-separated list (could be useful to add to csv file)
+> > 3. ls -F: flags all the file names
+> > 4. ls -g: I already know who owns the computer...
+> > 5. ls -C: seems superfluous to list it since it is the default
 
 ---
 
@@ -51,7 +72,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > I'm going to do my best to translate what I think the internet is telling me.  From what I can tell xargs is similar to a while loop in that when you apply it to a function (command?), it will apply that function to inputs either from the user (until Ctrl+D is applied) or from a file or command (using a pipe).  One website pointed out that it is nice because you can run multiple processes at a time.  The example they gave was taking music files and converting them from .wav files to some other file three files at a time.  
 
  
 
