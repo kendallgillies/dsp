@@ -86,14 +86,42 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Denote the following:
+>>
+>> $$I$$ - Identical Twin
+>>
+>> $$F$$ - Fraternal Twin
+>>
+>> $$T$$ - Twin
+>>
+>> We are looking for the probability that Elvis was an identical twin given that he was a twin: 
+>>
+>> $$ P\left(I\left| T\right.\right) $$
+>>
+>> Which by Bayes Theorem is
+>>
+>> $$\displaystyle P\left(I\left| T\right.\right)  = \frac{P\left(T\cap I\right)}{P(T)}$$
+>>
+>> Since a twin is either identical or fraternal and the two groups of twins do not share any overlap we have
+>>
+>> $$\displaystyle \frac{P\left(T\cap I\right)}{P(T)}=\frac{P\left(T\cap I\right)}{P\left(I\cup F\right)}=\frac{P\left(T\cap I\right)}{P(I)+P(F)}$$
+>>
+>> Finally since all identical twins are twins
+>>
+>> $$\displaystyle \frac{P\left(T\cap I\right)}{P(I)+P(F)} = \frac{P\left(I\right)}{P(I)+P(F)}$$
+>>
+>> Putting the values in we have:
+>>
+>> $$ \displaystyle \frac{P\left(I\right)}{P(I)+P(F)} = \frac{1/300}{1/300+1/125}=0.294$$ 
+>>
+>> Therefore, there is a 29.4% chance Elvis was an identical twin.
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> While both frequentist and Bayesian statistics draw conclusions from analyzing sample data, Bayesian statistics also insert a prior belief into their initial hypotheses. For example, frequentist statisticians use the data from a sample to create a new distribution while Bayesian statisticians will create an *a priori* distribution based on their initial beliefs or similar types of data previously analyzed then update the initial distribution with the data from a sample (the posterior distribution).  A good *a priori* distribution could allow a Bayesian statistician to draw the same conclusions a frequentist statistician could faster and using a smaller sample size. The argument against Bayesian statistics is that one’s initial beliefs could vary from person to person and give vastly different results from the same set of data.  It is important to note that by the Law of Large Numbers and Central Limit Theorem, given a large enough sample the data will produce the same results using Bayesian statistics or frequentist statistics regardless of the Bayesian’s initial beliefs.
 
 ---
 
